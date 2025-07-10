@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
                   script-src 'self' 'unsafe-inline' *.visualwebsiteoptimizer.com;
                   connect-src 'self';
                   worker-src 'self' blob:;
-                ">
+                " />
             </head>
             <body className="antialiased text-white bg-blue-900">
                 <div className="flex flex-col min-h-screen px-6 bg-noise sm:px-12">
