@@ -8,7 +8,7 @@ const nextConfig = {
             headers: [
               {
                 key: 'Content-Security-Policy',
-                value: "worker-src 'self' blob;script-src 'self' 'unsafe-inline'; connect-src 'self' *.visualwebsiteoptimizer.com;",
+                value: "worker-src 'self' blob;script-src 'self' 'unsafe-inline';",
               },
             ],
           },
