@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
                 <meta http-equiv="Content-Security-Policy" content="
-                  script-src 'self' *.visualwebsiteoptimizer.com;
+                  script-src 'self' 'unsafe-inline' *.visualwebsiteoptimizer.com;
                   worker-src 'self';
                 " />
                 <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
