@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
                 <meta http-equiv="Content-Security-Policy" content="
-                  script-src 'self' 'unsafe-inline' *.visualwebsiteoptimizer.com;
-                  worker-src 'self';
+                  script-src 'self' 'unsafe-inline' *.visualwebsiteoptimizer.com app.vwo.com;
+                  worker-src 'self' blob:;
                 " />
                 <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
                 <script type="text/javascript" id="vwoCode" dangerouslySetInnerHTML={{ __html: smartCode }} />
