@@ -21,10 +21,10 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
-                <meta http-equiv="Content-Security-Policy" content="
+{/*                 <meta http-equiv="Content-Security-Policy" content="
                   script-src 'self' 'unsafe-inline' *.visualwebsiteoptimizer.com app.vwo.com;
                   worker-src 'self' blob:;
-                " />
+                " /> */}
                 <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
                 <script type="text/javascript" async src="https://cdn.mida.so/js/optimize.js?key=g23zJvlwd1qJ6dEk7PbV9W"></script>
                 <script type="text/javascript" id="vwoCode" dangerouslySetInnerHTML={{ __html: smartCode }} />
